@@ -29,3 +29,5 @@ t='tab'
 k=7
 yes
 ```
+# considerations
+The biggest challenge was solving the problem where we needed an even or odd number of operations. That is, if we needed a remove operation followed by a concatenation operation, but we didn't have that even number of operations. But it was resolved with no problems
