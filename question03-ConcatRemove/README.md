@@ -15,10 +15,17 @@
 <p>t: desired string
 <p>k: an integer that represents the number of operations
 
-# retult:
+# result:
 ```shell
 s='blablablabla'
 t='blablabcde'
 k=8
+yes
+```
+  
+```shell
+s='tab'
+t='tab'
+k=7
 yes
 ```
