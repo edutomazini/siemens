@@ -1,3 +1,3 @@
 # Siemens
 
-Some questions implemented in C language
+<p>Simple function to return a lenght of string.
