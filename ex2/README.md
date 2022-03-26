@@ -1,6 +1,6 @@
 
 
-# Exercice 2
+# exercise 2
 Consider a string containing lowercase characters from the Portuguese alphabet. You can perform two types of operations on this string:
 1. Concat a lowercase character from the Portuguese alphabet at the end of the string.
 2. Remove the last character from the string. If the string is empty, it will remain empty.
