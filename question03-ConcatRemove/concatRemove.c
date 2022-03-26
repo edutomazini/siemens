@@ -1,5 +1,8 @@
-#include <stdio.h>
-#include <string.h>
+
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <string.h>
+
 
 char* ConcatRemove (char *s, char *t, int k)
 {
@@ -30,11 +33,25 @@ char* ConcatRemove (char *s, char *t, int k)
         return "no";
 }
 
-/*int main(void)
+/* commented for proposed of the unit test
+int main(void)
 {
-    char *s="blablabla";
-    char *t="bl";
-    int k=9;
+    char *s="blablablabla";
+    char *t="blablabcde";
+    int k=8;
 
+    printf("s='%s'\n",s);
+    printf("t='%s'\n",t);
+    printf("k=%i\n",k);
     printf("%s\n",ConcatRemove(s,t,k));
-}*/
+
+    s="tab";
+    t="tab";
+    k=7;
+
+    printf("s='%s'\n",s);
+    printf("t='%s'\n",t);
+    printf("k=%i\n",k);
+    printf("%s\n",ConcatRemove(s,t,k));
+}
+*/
