@@ -1,6 +1,6 @@
 # Siemens
 
-A use the idea of to use the same slot of memory to change the values.
+We use the idea of to use the same slot of memory to change the values.
 For exemplo, if you have two variables, x and y and want to change this values whitout an auxiliary varible you can use the same variables.
 Exemplo
 
