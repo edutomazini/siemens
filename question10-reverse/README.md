@@ -7,7 +7,7 @@ The idea is to use the same memory slot to change the values. For example, if yo
     int x = 10;
     int y = 20;
 ```
-you can 'store' the value of y in x adding the value of y in x, then restore the value by efetuating a minus operation?
+You can 'store' the value of y in x adding the value of y in x, then restore the value by efetuating a minus operation. 
 
 ```C
     int x = 10;
@@ -18,6 +18,6 @@ you can 'store' the value of y in x adding the value of y in x, then restore the
     x = x - y; // x becomes 10
 ```
 
-Than, you can 'swap' the values.
+Doing in the end a 'swap' operation.
 
-In a string, in background, we have a array of integer, than you can makes this operations with the extremes of the 'array' (string).
+In a string, in background, we have a array of integer, than you can make this operations with the extremes of the 'array' (string).
