@@ -1,8 +1,7 @@
 # Siemens
 
-We use the idea of to use the same slot of memory to change the values.
-For exemplo, if you have two variables, x and y and want to change this values whitout an auxiliary varible you can use the same variables.
-Exemplo
+The idea is to use the same memory slot to change the values. For example, if you have two variables, x and y, and you want to change those values without an auxiliary variable, you can use the same variables. 
+<p>Example:
 
 ```C
     int x = 10;
