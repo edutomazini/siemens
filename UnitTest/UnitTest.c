@@ -34,12 +34,12 @@ static char *testes(void) {
 }
 
 int main(void) {
-    char *saida;
+    char *response;
 
-    saida = testes();
+    response = testes();
 
-    if(0!=saida) {
-        puts(saida);
+    if(0!=response) {
+        puts(response);
         return EXIT_FAILURE;
     }
 
