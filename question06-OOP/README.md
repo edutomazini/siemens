@@ -14,3 +14,5 @@ Generalization may be defined as the technique of extracting the essential chara
 
 # Polymorphism
 In programming language theory and type theory, polymorphism is the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types. The concept is borrowed from a principle in biology where an organism or species can have many different forms or stages.
+<p><b>In object-oriented programming, polymorphism is the principle by which two or more classes derived from the same superclass can invoke methods that have the same signature but different behavior.
+  <p><i>This is exactly what is described in the example.
