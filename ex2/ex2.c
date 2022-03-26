@@ -30,11 +30,11 @@ const char* ConcatRemove (char *s, char *t, int k)
         return "no";
 }
 
-int main(void)
+/*int main(void)
 {
     char *s="blablabla";
     char *t="bl";
     int k=9;
 
     printf("%s\n",ConcatRemove(s,t,k));
-}
+}*/
