@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #include "minunit.h"
-#include "../question3/concatRemove.c"
+#include "../question03/concatRemove.c"
 
 int tests_run = 0;
 
