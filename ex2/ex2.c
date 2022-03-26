@@ -1,8 +1,40 @@
 #include <stdio.h>
+#include <string.h>
+
+const char* ConcatRemove (char *s, char *t, int k)
+{
+    int movSaved = 0;
+    int lenS = (int)strlen(s);
+    int lenT = (int)strlen(t);
+    int moves = lenS + lenT; // if i have to remove all and concat all
+
+    if (k >= moves) // allways be possible to make
+        return "yes";
+    else
+        for(int i = 0; i < (lenS <= lenT ? lenS : lenT ); i++) // loop through minor string
+        {
+            if (s[i] == t[i]) // quantity of saved moves
+                movSaved++;
+            else
+                break;
+        };
+
+    moves = lenS + lenT - 2*movSaved; // moves necessary
+
+    if (k >= moves)
+        if ((moves % 2 == 0 && k % 2 == 0) || (moves % 2 != 0 && k % 2 != 0)) // k and moves need to be even or odd respectively
+            return "yes";
+        else
+            return "no";
+    else
+        return "no";
+}
 
 int main(void)
 {
-    int number = 100;
-    for(int line = 1; line <= number; line++)
-        (line % 15 == 0) ? printf("FooBaa\n") : (line % 3 == 0) ? printf("Foo\n") : (line % 5 == 0) ? printf("Baa\n") : printf("%i\n", line);
+    char *s="blablabla";
+    char *t="bl";
+    int k=9;
+
+    printf("%s\n",ConcatRemove(s,t,k));
 }
