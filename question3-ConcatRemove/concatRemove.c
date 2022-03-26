@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-const char* ConcatRemove (char *s, char *t, int k)
+char* ConcatRemove (char *s, char *t, int k)
 {
     int movSaved = 0;
     int lenS = (int)strlen(s);
