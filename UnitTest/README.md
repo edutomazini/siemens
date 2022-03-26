@@ -9,9 +9,9 @@ In this project we use MinUnit - a minimal unit testing framework for C (https:/
 The function ConcatRemove will be int the file ../ex2/ex2.c 
 
 ## Sample of response:
-'''console
+```shell
 => test_yes
 => test_no
 TESTS RUN SUCCESSFULLY
 Tests performed: 2
-'''
+```
