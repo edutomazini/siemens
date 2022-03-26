@@ -13,6 +13,7 @@ The ternary operator (?:) was used since we need to handle a simple condition.
 
 Although it doesn't have a significant performance gain, it helps to simplify the code.
 
-<p>Syntax
-
-`condition ? value_if_true : value_if_falseˋ
+Syntax:
+```
+condition ? value_if_true : value_if_false
+  ```
